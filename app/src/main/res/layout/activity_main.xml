@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:text="회원 정보" />
+
+    <EditText
+        android:id="@+id/editT1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="text"
+        android:gravity="center"
+        android:hint="아이디 입력되는 공간"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editT2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="text"
+        android:gravity="center"
+        android:hint="이메일 입력되는 공간"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="내용 저장하러 가기" />
+</LinearLayout>
